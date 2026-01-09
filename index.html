@@ -6,20 +6,86 @@
     <meta name="description" content="This is a course home page that meets course standards, is responsive, and passes accessibility, best practice, and SEO tests from DevTools.">
     <title>WDD231 - Web Frontend Development I - Tshedimoso Segona</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <script src="" defer></script>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="scripts/getdate.js" defer></script>
 </head>
 
 <body>
     <header>
-
+        <span id="page-name">
+            WDD231 - Web Frontend Development I
+        </span>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
+        <h1>Home</h1>
+        <div class="grid">
+            <section class="card1">
+                <div class="card-header">
+                    <h2>About Me</h2>
+                </div>
+                <p>
+                    My name is Tshedimoso Segona, i was born and raised in Soweto Johannesburg, South Africa.
+                    I have 2 siblings , an older sister and a younger brother, Itumeleng Segona and Kgomotso Segona.
+                    I am currently working as an administrator at The South African Learner Support Organisation (salso), and 
+                    i am also a team leader of the volunteers at salso. I love to read , watch movies and listen to music.
+                    I love my family , i love my friends and i love God and Jesus Christ.
+                 </p>
+            </section>
 
+            <section class="card2">
+                <div class="card-header">
+                    <h2>Student Photo</h2>
+                </div>
+                <img class="profile-picture" src="images/profile.jpg" alt="A picture of my face" width="200">
+            </section>
+
+            <section class="card3">
+                <div class="card-header">
+                    <h2>Web Certificate courses</h2>
+                </div>
+                <div class="buttons-grid1">
+                    <a href="#" target="_blank"><button class="rounded">All</button></a>
+                    <a href="#" target="_blank"><button class="rounded">CSE</button></a>
+                    <a href="#" target="_blank"><button class="rounded">WDD</button></a>
+                </div>
+                <div class="buttons-grid2">
+                    <a href="#" target="_blank"><button class="rectangle">WDD 130</button></a>
+                    <a href="#" target="_blank"><button class="rectangle">WDD 131</button></a>
+                    <a href="#" target="_blank"><button class="rectangle">WDD 231</button></a>
+                </div>
+                <p class="p">The total credits for course listed above is 6</p>
+            </section>
+        </div>
     </main>
 
     <footer>
-        
+        <div class="footer1">
+            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <div class="footer2">
+            <p>© <span id="currentyear"></span> ✨Tshedimoso Segona✨ South Africa</p>
+            <p><span id="lastModified"></span></p>
+        </div>
     </footer>
 </body>
 </html>
