@@ -114,22 +114,6 @@ button{
     text-align: center;
 }
 
-.footer1 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px;
-}
-
-.footer1 a {
-  color: #444;
-  font-size: 50px;
-  transition: color 0.3s ease;
-}
-
-.footer1 a:hover {
-  color: #006eb6;
-}
 
 .footer2 {
     background-color:  #006eb6;
