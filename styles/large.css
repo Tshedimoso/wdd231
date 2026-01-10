@@ -113,7 +113,10 @@ button{
 .p{
     text-align: center;
 }
-
+.footer1{
+    text-align:center;
+    padding: 10px;
+}
 
 .footer2 {
     background-color:  #006eb6;
