@@ -30,8 +30,9 @@ main, footer{
 .navigation{
     list-style: none;
     display: flex;
-    background-color: #333;  
+    background-color: #0c0c0c;
 }
+
 
 .navigation a {
     display: block;
