@@ -1,131 +1,49 @@
-/**must contain a media query**/
-*{
-    padding: 0;
-    margin: 0;
-    
-}
+@media (min-width: 650px){
+    .hamburger { display: none; }
+    .nav-hidden { display:flex; }
 
-header{
+
+    header{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     max-width: 90vw;
     margin: 0 auto;
 }
 
-main, footer{
-     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    max-width: 88vw;
-    margin: 0 auto;
-}
-
-#page-name{
-    display: block;
-	background-color: #006eb6;
-	padding: 1rem;
-	color: #fff;
+    #page-name{
+        display: block;
+        background-color: #006eb6;
+        padding: 1rem;
+        color: #fff;
     
-}
+    }
 
-.navigation{
-    list-style: none;
-    display: flex;
-    background-color: #0c0c0c;
-    color: #ffffff;
-}
+    .navigation{
+        list-style: none;
+        display: flex;
+        background-color: #0c0c0c;
+        color: #ffffff;
+    }
+    .navigation a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 4px;
+    }
 
+    .navigation a:hover {
+        font-weight: 700;
+        color:  #006eb6;
+    }
 
-.navigation a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 4px;
-}
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+        gap: 10px;
+    }
+    .card3 {
+        grid-column: 1 / -1; 
+    }
 
-.navigation a:hover {
-	font-weight: 700;
-	color:  #006eb6;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr; 
-    gap: 10px;
-}
-
-.card1 ,.card2 ,.card3 {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  border-color: #0c0c0c;
-  box-shadow: 0 2px 6px #0000001a;
-}
-
-.card3 {
-  grid-column: 1 / -1; 
-}
-
-.card-header{
-    background-color: #006eb6;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 15px;
-}
-
-.profile-picture, p{
-    padding: 3px;
-}
-
-.card2, img{
-    text-align: center;
-}
-
-.buttons-grid1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-.buttons-grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
 
 }
-
-button{
-    width: 20rem;
-    padding: 3px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-}
-
-.rectangle {
-    border-radius: 0px;    
-}
-
-.rounded{
-    border-radius: 10px;
-}
-
-.p{
-    text-align: center;
-}
-.footer1{
-    text-align:center;
-    padding: 10px;
-}
-
-.footer2 {
-    background-color:  #006eb6;
-    color:white;
-    text-align: center;
-}
-
-
-
-
-
-

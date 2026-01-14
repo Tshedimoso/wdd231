@@ -10,23 +10,27 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/getdate.js" defer></script>
+    <script  src="scripts/nav-hamburger.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="nav">
+        <div clas="header-inner">
         <span id="page-name">
             WDD231 - Web Frontend Development I
         </span>
-        <nav>
+        <button class="hamburger" id="hamburger" arial-label="Open navigation">☰</button>
+        <nav id="main-nav" class="nav-hidden" arial-label="Primary">
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Chamber Project</a></li>
                 <li><a href="#">Final Project</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     
     <main>
