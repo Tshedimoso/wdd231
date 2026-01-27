@@ -12,28 +12,54 @@
     <meta property="og:image" content="https://tshedimoso.github.io/wdd231/chamber/images/jcc_logo.png">
     <meta property="og:url" content="https://tshedimoso.github.io/wdd231/chamber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-    <script src="" defer></script>
-    <script  src="" defer></script>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/directory.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <header>
+    <div class="header-content">
+        <div class="logo">
+        <img src="images/jcc_logo.png" alt="City Chamber of Commerce Logo">
+    </div >
+    <div class="site-title">
+    <h1>Johannesburg Chamber of Commerce</h1>
+    </div>
+    <nav>
+        <button id="menu">☰</button>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
 
 </header>
 
 <main>
+     <section class="directory-controls">
+        <button id="grid">⏹ Grid</button>
+        <button id="list">☰ List</button>
+    </section>
 
+    <section id="members" class="grid"></section>
 </main>
 
 <footer>
-
+    <p>📍 123 Main Street, Johannesburg, Gauteng</p>
+    <p>📞 011 436 8968 | ✉️ info@citychamber.org</p>
+    <p>
+        © <span id="year"></span> Johannesburg City Chamber of Commerce |
+        Tshedimoso Segona | WDD 231
+    </p>
+    <p>Last Modification: <span id="lastModified"></span></p>
 </footer>
+
 </body>
-
-
 </html>
