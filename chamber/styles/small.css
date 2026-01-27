@@ -75,7 +75,9 @@ nav {
 .directory-controls button {
     padding: 0.5rem 1rem;
     margin: 0.25rem;
-    background-color: #cfb108 ;
+    background-color: #fff ;
+    width: 10rem;
+    border:1px solid#cfb108;
     border-radius: 10px;
 }
 
