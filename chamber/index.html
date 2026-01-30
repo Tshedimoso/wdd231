@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/directory.js" defer></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <header>
@@ -44,12 +44,39 @@
 </header>
 
 <main>
-     <section class="directory-controls">
-        <button id="grid"> Grid</button>
-        <button id="list"> List</button>
-    </section>
+  <section class="hero">
+    <p class="hero-text">Connecting Business. Building Johannesburg one business at a time!!.</p>
+    <button class="hero-btn">
+    <a class="cta" href="join.html">Join the Chamber</a>
+    </button>
+  </section>
 
-    <section id="members" class="grid"></section>
+  
+  <section class="events">
+    <h2>Current Events</h2>
+    <ul>
+      <li>📅 Business Networking Breakfast – March 12</li>
+      <li>📅 Spring Festival – April 5</li>
+      <li>📅 Small Business Workshop – April 22</li>
+    </ul>
+  </section>
+
+  
+  <section class="weather">
+    <h2>Current Weather</h2>
+    <p><strong>Current:</strong> <span id="temp"></span>°F – <span id="description"></span></p>
+  </section>
+
+  <section class="forecast">
+    <h2>Weather Forecast</h2>
+    <ul id="forecast"></ul>
+  </section>
+
+  
+  <section class="spotlights">
+    <h2>Member Spotlights</h2>
+    <div id="spotlight-container"></div>
+  </section>
 </main>
 
 <footer>
