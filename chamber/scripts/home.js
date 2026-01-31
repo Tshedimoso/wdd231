@@ -43,11 +43,11 @@ menuButton.addEventListener('click', () => {
 });
 
 
+yearSpan.textContent = new Date().getFullYear();
 
 const apiKey = "927a4cc3ffd9f12e2b7e590c98b1f646";
 const lat = -26.21;   
 const lon = 28.00;
-yearSpan.textContent = new Date().getFullYear();
 
 const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
 
