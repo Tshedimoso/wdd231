@@ -3,13 +3,15 @@ const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 const menuButton = document.querySelector('#menu');
 const nav = document.querySelector('.navigation');
+const currentYear = new Date().getFullYear();
+
 
 menuButton.addEventListener('click', () => {
     nav.classList.toggle('open');
 });
 
-document.querySelector('#year').textContent = new Date().getFullYear();
-document.querySelector('#lastModified').textContent = document.lastModified;
+document.getElementById("currentyear").innerHTML = `${currentYear}`;
+document.getElementById("lastModified").innerHTML = `Last modified: ${document.lastModified}`;
 
 async function getMembers() {
     const response = await fetch('data/members.json');

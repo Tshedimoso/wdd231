@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://tshedimoso.github.io/wdd231/chamber/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
@@ -43,22 +43,46 @@
   </header>
 
   <main>
-    <section>
-
+     <section class="hero">
+        <div class="hero-content">
+            <a href="join.html" class="cta-btn">Join The Chamber</a>
+        </div>
     </section>
 
-    <section>
-
+    <h1>Home</h1>
+    <div class = "big">
+    <section class="events">
+        <h2>Current Events</h2>
+        <ul>
+            <li>📅 Business Networking Breakfast – March 12</li>
+            <li>📅 Spring Festival – April 5</li>
+            <li>📅 Small Business Workshop – April 22</li>
+        </ul>
     </section>
 
-    <section>
-
+    <section class="weather">
+        <h2>Current Weather</h2>
+        <p><strong>Current:</strong> <span id="temp"></span>°C – <span id="description"></span></p>
     </section>
+
+    <section class="forecast">
+        <h2>Weather Forecast</h2>
+        <ul id="forecast"></ul>
+    </section>
+    </div>
+  
+    <section id="members" class="grid"></section>
+
   </main>
 
   <footer>
     <footer>
         <div class="footer1">
+            <p>Johannesburg Chamber of Commerce</p>
+            <p>📍 123 Main Street, Johannesburg, Gauteng</p>
+            <p>📞 011 436 8968 | ✉️ info@Johannesburg.org</p>
+        </div>
+        <div class = "footer3">
             <a href="https://www.linkedin.com/in/tshedimoso-segona/"><img  src="images/linkedin.png" alt="linkedin icon" width="50"></a>
             <a href="https://github.com/Tshedimoso"><img  src="images/github.png" alt="a github icon" width="50"></a>
             <a href="https://www.instagram.com/tshedimoso_segona/"><img  src="images/instagram.png" alt="an instagram icon" width="50"></a>

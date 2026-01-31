@@ -20,4 +20,9 @@
     .member-card {
         text-align: center;
     }
+     footer{
+        display: flex;
+        flex-direction: row;
+        gap:10rem; 
+    }
 }
