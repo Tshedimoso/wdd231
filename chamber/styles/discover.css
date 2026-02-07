@@ -1,0 +1,63 @@
+.visit-message {
+  background: #163a5f;
+  color: #ffd700;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+.discover-card {
+  background: #fff;
+  border: 2px solid #cfb108;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Medium Screens */
+@media (min-width: 641px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card5 card6"
+      "card7 card8 card8";
+  }
+
+  .discover-card img:hover {
+    filter: brightness(80%);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+}
