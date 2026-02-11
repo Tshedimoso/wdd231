@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Discover Johannesburg – local attractions and community highlights">
+  <meta name="description" content="A chamber of commerce is a local organization of businesses that work together to strengthen the business interests of the group.">
   <meta name="author" content="Tshedimoso Segona">
-  <title>Discover | Johannesburg Chamber of Commerce</title>
-
+  <title>Join | Johannesburg Chamber of Commerce</title>
   <link rel="icon" href="favicon.ico">
+  <meta property="og:title" content="Johannesburg Chamber of Commerce">
+  <meta property="og:description" content="JCC is a business-led organization dedicated to supporting local enterprises, strengthening the economy, and fostering community connections.">
+  <meta property="og:image" content="https://tshedimoso.github.io/wdd231/chamber/images/jcc_logo.png">
+  <meta property="og:url" content="https://tshedimoso.github.io/wdd231/chamber/directory.html">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
   <link rel="stylesheet" href="styles/discover.css">
-
-  <script type="module" src="scripts/discover.js"></script>
+  <script src="scripts/directory.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <script type="module" src="scripts/discover.js" ></script>
 </head>
 
 <body>
@@ -42,20 +48,26 @@
   <section class="visit-message" id="visitMessage"></section>
 
   <section class="discover-grid" id="discoverGrid">
-    <!-- Cards injected by JS -->
   </section>
 </main>
 
-<footer>
-  <div class="footer1">
-    <p>Johannesburg Chamber of Commerce</p>
-    <p>📍 123 Main Street, Johannesburg, Gauteng</p>
-    <p>📞 011 436 8968 | ✉️ info@Johannesburg.org</p>
-  </div>
-  <div class="footer2">
-    <p>© <span id="currentyear"></span> ✨Tshedimoso Segona✨ South Africa</p>
-    <p><span id="lastModified"></span></p>
-  </div>
-</footer>
+ <footer>
+    
+    <div class="footer1">
+        <p>Johannesburg Chamber of Commerce</p>
+        <p>📍 123 Main Street, Johannesburg, Gauteng</p>
+        <p>📞 011 436 8968 | ✉️ info@Johannesburg.org</p>
+    </div>
+    <div class = "footer3">
+        <a href="https://www.linkedin.com/in/tshedimoso-segona/"><img  src="images/linkedin.png" alt="linkedin icon" width="50"></a>
+        <a href="https://github.com/Tshedimoso"><img  src="images/github.png" alt="a github icon" width="50"></a>
+        <a href="https://www.instagram.com/tshedimoso_segona/"><img  src="images/instagram.png" alt="an instagram icon" width="50"></a>
+    </div>
+    <div class="footer2">
+        <p>© <span id="currentyear"></span> ✨Tshedimoso Segona✨ South Africa</p>
+        <p><span id="lastModified"></span></p>
+    </div>
+    
+  </footer>
 </body>
 </html>

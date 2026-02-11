@@ -20,7 +20,7 @@ places.forEach((place, index) => {
   grid.appendChild(card);
 });
 
-/* ===== VISIT MESSAGE ===== */
+
 const message = document.getElementById("visitMessage");
 const lastVisit = localStorage.getItem("lastVisit");
 const now = Date.now();

@@ -30,6 +30,16 @@
   border-radius: 8px;
 }
 
+button{
+  margin-top: 0.5rem;
+  display: inline-block;
+  background-color:#163a5f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .discover-card img {
   width: 100%;
   height: auto;
