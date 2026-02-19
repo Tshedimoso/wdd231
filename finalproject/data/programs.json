@@ -1,0 +1,17 @@
+[
+{"id":1,"title":"Hygiene Workshop A","category":"Health","location":"Gauteng","participants":120},
+{"id":2,"title":"Hygiene Workshop B","category":"Health","location":"Limpopo","participants":95},
+{"id":3,"title":"Anti-Bullying Session 1","category":"Safety","location":"Durban","participants":200},
+{"id":4,"title":"Anti-Bullying Session 2","category":"Safety","location":"Cape Town","participants":175},
+{"id":5,"title":"No Shame Talk 1","category":"Confidence","location":"Pretoria","participants":130},
+{"id":6,"title":"No Shame Talk 2","category":"Confidence","location":"Soweto","participants":140},
+{"id":7,"title":"Health Drive 3","category":"Health","location":"Polokwane","participants":90},
+{"id":8,"title":"Safety Campaign 3","category":"Safety","location":"Bloemfontein","participants":160},
+{"id":9,"title":"Empowerment Camp 1","category":"Confidence","location":"Johannesburg","participants":210},
+{"id":10,"title":"Empowerment Camp 2","category":"Confidence","location":"East London","participants":180},
+{"id":11,"title":"School Visit 1","category":"Health","location":"Nelspruit","participants":85},
+{"id":12,"title":"School Visit 2","category":"Safety","location":"Kimberley","participants":150},
+{"id":13,"title":"Awareness Rally","category":"Health","location":"Port Elizabeth","participants":300},
+{"id":14,"title":"Community Outreach","category":"Confidence","location":"Rustenburg","participants":110},
+{"id":15,"title":"Leadership Workshop","category":"Confidence","location":"Midrand","participants":125}
+]

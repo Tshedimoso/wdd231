@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved | Support SALSO</title>
+<meta name="description" content="Volunteer or partner with SALSO to support learners.">
+<meta name="author" content="Your Name">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" href="styles/styles.css">
+<script type="module" src="js/main.js" defer></script>
+<script type="module" src="js/programs.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+            <img src="images/salso.svg" alt="SALSO Logo" width="100">
+        </div>
+        <div class="site-title">
+            <h1>The South African Learner Support Organisation</h1>
+        </div>
+<button id="menuBtn">&#9776;</button>
+<nav id="navMenu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="programs.html">Programs</a></li>
+<li><a href="getinvolved.html" class="active">Get Involved</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h1>Volunteer With Us</h1>
+
+<form method="get" action="thankyou.html">
+<label for="name">Full Name</label>
+<input id="name" name="name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+
+<label for="role">Role</label>
+<select id="role" name="role">
+<option value="volunteer">Volunteer</option>
+<option value="partner">Partner School</option>
+<option value="donor">Donor</option>
+</select>
+
+<button type="submit">Submit</button>
+</form>
+</main>
+
+<footer>
+        <div class="footer1">
+            <p>The South African Learner Support Organisation</p>
+            <p>📍 123 Main Street, Johannesburg, Gauteng</p>
+            <p>📞 011 436 8968 | ✉️ info@salso.org</p>
+        </div>
+        <div class="footer3">
+            <a href="https://www.linkedin.com/in/tshedimoso-segona/"><img  src="images/linkedin.png" alt="linkedin icon" width="50"></a>
+            <a href="https://github.com/Tshedimoso"><img  src="images/github.png" alt="a github icon" width="50"></a>
+            <a href="https://www.instagram.com/tshedimoso_segona/"><img  src="images/instagram.png" alt="an instagram icon" width="50"></a>
+        </div>
+        <div class="footer2">
+            <p>© <span id="currentyear"></span> ✨Tshedimoso Segona✨ South Africa</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+</footer>
+
+</body>
+</html>
